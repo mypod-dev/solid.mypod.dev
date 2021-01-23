@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:36Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:56Z"^^XML:dateTime;
+    schem:datePublished "1950-08-10T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "A hack screenwriter writes a screenplay for a former silent film star who has faded into Hollywood obscurity.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/zt8aQ6ksqK6p1AopC5zVTDS9pKT.jpg";
+    schem:name "Sunset Boulevard";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0043014",
+        "https://www.themoviedb.org/movie/599".

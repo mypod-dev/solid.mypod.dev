@@ -1,0 +1,28 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdfa: <http://www.w3.org/ns/rdfa#>.
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix : <https://cheftech.solid.mypod.dev/profile/card#>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix pim: <http://www.w3.org/ns/pim/space#>.
+@prefix schema: <http://schema.org/>.
+@prefix ldp: <http://www.w3.org/ns/ldp#>.
+@prefix pro: <https://cheftech.solid.mypod.dev/profile/>.
+@prefix n: <http://www.w3.org/2006/vcard/ns#>.
+@prefix inbox: <https://cheftech.solid.mypod.dev/inbox/>.
+@prefix l: <https://lance.solid.mypod.dev/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+@prefix che: <https://cheftech.solid.mypod.dev/>.
+@prefix n0: <http://www.w3.org/ns/auth/acl#>.
+
+<> a <https://www.w3.org/ns/activitystreams#Announce>;
+    <https://www.w3.org/ns/activitystreams#object> <https://dokie.li/docs>.
+<https://dokie.li/docs> a schema:CreativeWork, <http://rdfs.org/sioc/ns#Post>, <http://www.w3.org/ns/prov#Entity>, schema:Article;
+    schema:license <https://creativecommons.org/licenses/by/4.0/>.
+<> <https://www.w3.org/ns/activitystreams#updated> "2021-01-20T14:59:03.451Z"^^XML:dateTime;
+    <https://www.w3.org/ns/activitystreams#summary> "If you click on the D in the list that includes chats, etc, you'll notice it refers to a dokieli document.  Well, explains what that is. Check it out."^^rdf:HTML;
+    schema:license <https://creativecommons.org/publicdomain/zero/1.0/>;
+    <https://www.w3.org/ns/activitystreams#to> :me.

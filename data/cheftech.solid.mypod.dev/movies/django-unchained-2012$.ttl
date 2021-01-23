@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:35Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:53Z"^^XML:dateTime;
+    schem:datePublished "2012-12-25T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/yK0qrQhi3BbOXvTNOBWHgpcbckZ.jpg";
+    schem:name "Django Unchained";
+    schem:sameAs
+        "https://www.imdb.com/title/tt1853728",
+        "https://www.themoviedb.org/movie/68718".

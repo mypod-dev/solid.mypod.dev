@@ -1,0 +1,21 @@
+{
+  "root": "/var/www/solid.mypod.dev/data",
+  "port": "8443",
+  "serverUri": "https://solid.mypod.dev",
+  "webid": true,
+  "mount": "/",
+  "configPath": "./config",
+  "configFile": "./config.json",
+  "dbPath": "./.db",
+  "sslKey": "/etc/letsencrypt/live/solid.mypod.dev/privkey.pem",
+  "sslCert": "/etc/letsencrypt/live/solid.mypod.dev/fullchain.pem",
+  "multiuser": true,
+  "enforceToc": false,
+  "disablePasswordChecks": false,
+  "supportEmail": "",
+  "server": {
+    "name": "A Solid Pod Server",
+    "description": "",
+    "logo": ":)"
+  }
+}

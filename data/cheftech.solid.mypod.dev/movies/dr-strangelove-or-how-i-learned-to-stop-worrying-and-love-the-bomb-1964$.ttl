@@ -1,0 +1,19 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:37Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:57Z"^^XML:dateTime;
+    schem:datePublished "1964-01-29T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "After the insane General Jack D. Ripper initiates a nuclear strike on the Soviet Union, a war room full of politicians, generals and a Russian diplomat all frantically try to stop the nuclear strike.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/gHm96BRW4GoI339rF1vYoYTB6Qe.jpg";
+    schem:name
+    "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0057012",
+        "https://www.themoviedb.org/movie/935".

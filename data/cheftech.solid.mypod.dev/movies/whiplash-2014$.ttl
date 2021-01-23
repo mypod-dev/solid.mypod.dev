@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:32Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:46Z"^^XML:dateTime;
+    schem:datePublished "2014-10-10T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/qq8xf2SQqHifUUyc0k6Hj1065f1.jpg";
+    schem:name "Whiplash";
+    schem:sameAs
+        "https://www.imdb.com/title/tt2582802",
+        "https://www.themoviedb.org/movie/244786".

@@ -1,0 +1,23 @@
+@prefix : <#>.
+@prefix n0: <http://xmlns.com/foaf/0.1/>.
+@prefix n1: <https://www.w3.org/ns/activitystreams#>.
+@prefix c: <https://cheftech.solid.mypod.dev/profile/card#>.
+@prefix Soci: <https://ozcanseker.github.io/Social-linked-beer/>.
+@prefix c0: </profile/card#>.
+
+<>
+    a n0:Document;
+    n0:primaryTopic
+            [
+                a n1:Invite;
+                n0:isPrimaryTopicOf <>;
+                n1:actor c:me;
+                n1:object Soci:;
+                n1:summary
+                    "Christophe R Patraldo invites you to drink a beer with him on https://ozcanseker.github.io/Social-linked-beer/ .";
+                n1:target c0:me
+            ].
+Soci:
+    a n1:Application, n1:Page;
+    n1:name "Social Linked Beer";
+    n1:url "https://ozcanseker.github.io/Social-linked-beer/".

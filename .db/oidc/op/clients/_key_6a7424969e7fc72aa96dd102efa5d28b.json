@@ -1,0 +1,1 @@
+{"redirect_uris":["https://lance.solid.mypod.dev/.well-known/solid/login"],"client_id":"6a7424969e7fc72aa96dd102efa5d28b","response_types":["id_token token"],"grant_types":["implicit"],"application_type":"web","id_token_signed_response_alg":"RS256","token_endpoint_auth_method":"client_secret_basic"}

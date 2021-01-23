@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:31Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:42Z"^^XML:dateTime;
+    schem:datePublished "1936-02-11T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "The Tramp struggles to live in modern industrial society with the help of a young homeless woman.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/7uoiKOEjxBBW0AgDGQWrlfGQ90w.jpg";
+    schem:name "Modern Times";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0027977",
+        "https://www.themoviedb.org/movie/3082".

@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:32Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:44Z"^^XML:dateTime;
+    schem:datePublished "1931-02-01T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "City Lights is the first silent film that Charlie Chaplin directed after he established himself with sound accompanied films. The film is about a penniless man who falls in love with a flower girl.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/bXNvzjULc9jrOVhGfjcc64uKZmZ.jpg";
+    schem:name "City Lights";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0021749",
+        "https://www.themoviedb.org/movie/901".

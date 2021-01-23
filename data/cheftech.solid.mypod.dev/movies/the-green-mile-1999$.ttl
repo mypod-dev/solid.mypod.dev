@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:29Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:37Z"^^XML:dateTime;
+    schem:datePublished "1999-12-10T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/velWPhVMQeQKcxggNEU8YmIo52R.jpg";
+    schem:name "The Green Mile";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0120689",
+        "https://www.themoviedb.org/movie/497".

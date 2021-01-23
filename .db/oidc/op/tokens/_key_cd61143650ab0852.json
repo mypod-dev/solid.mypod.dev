@@ -1,0 +1,1 @@
+{"header":{"alg":"RS256","kid":"R6WL-r2pEa4"},"payload":{"iss":"https://solid.mypod.dev","aud":["ac8e5b8271f7233e580d29c3f7833376"],"sub":"https://lance.solid.mypod.dev/profile/card#me","exp":1612298315,"iat":1611088715,"jti":"cd61143650ab0852","scope":"openid"}}

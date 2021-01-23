@@ -1,0 +1,10 @@
+@prefix : <#>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
+@prefix bookm: <http://www.w3.org/2002/01/bookmark#>.
+
+<> a solid:ListedDocument, solid:TypeIndex.
+
+:id1611088760949
+    a solid:TypeRegistration;
+    solid:forClass bookm:Bookmark;
+    solid:instance </profile/bookmarks.ttl>.

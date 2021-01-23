@@ -1,0 +1,20 @@
+@prefix : <#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix mee: <http://www.w3.org/ns/pim/meeting#>.
+@prefix n0: <http://purl.org/dc/elements/1.1/>.
+@prefix c: </profile/card#>.
+@prefix ui: <http://www.w3.org/ns/ui#>.
+@prefix ic: <http://www.w3.org/2002/12/cal/ical#>.
+@prefix flow: <http://www.w3.org/2005/01/wf/flow#>.
+
+:id1611088759770
+    ic:dtstart "2021-01-19T20:39:19Z"^^xsd:dateTime;
+    flow:participant c:me;
+    ui:backgroundColor "#fceed1".
+:this
+    a mee:LongChat;
+    n0:author c:me;
+    n0:created "2021-01-19T20:39:19Z"^^xsd:dateTime;
+    n0:title "Chat channel";
+    flow:participation :id1611088759770;
+    ui:sharedPreferences :SharedPreferences.

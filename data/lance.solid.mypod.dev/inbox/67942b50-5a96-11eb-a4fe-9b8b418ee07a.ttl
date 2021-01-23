@@ -1,0 +1,4 @@
+
+<> a <http://www.w3.org/ns/pim/meeting#LongChatInvite> ;
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#seeAlso> <https://lance.solid.mypod.dev/IndividualChats/lance.solid.mypod.dev/index.ttl#this> . 
+  

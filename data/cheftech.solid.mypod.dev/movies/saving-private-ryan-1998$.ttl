@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:28Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:36Z"^^XML:dateTime;
+    schem:datePublished "1998-07-24T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/JC8KQ2BXaAIFEU8zEuakiwUQSr.jpg";
+    schem:name "Saving Private Ryan";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0120815",
+        "https://www.themoviedb.org/movie/857".

@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:32Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:45Z"^^XML:dateTime;
+    schem:datePublished "2006-10-05T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "To take down South Boston's Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there's a mole among them.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/p3tmqqwFPHFdu1oVpcgKGfcPCMZ.jpg";
+    schem:name "The Departed";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0407887",
+        "https://www.themoviedb.org/movie/1422".

@@ -1,0 +1,2 @@
+<> <http://www.w3.org/2000/01/rdf-schema#label> "Movies" .
+<> <http://purl.org/dc/terms/created> "2021-01-20T14:49:49Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .

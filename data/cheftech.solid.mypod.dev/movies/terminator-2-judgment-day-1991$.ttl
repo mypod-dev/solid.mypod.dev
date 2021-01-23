@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:31Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:41Z"^^XML:dateTime;
+    schem:datePublished "1991-07-03T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "Nearly 10 years have passed since Sarah Connor was targeted for termination by a cyborg from the future. Now her son, John, the future leader of the resistance, is the target for a newer, more deadly terminator. Once again, the resistance has managed to send a protector back to attempt to save John and his mother Sarah.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/5M0j0B18abtBI5gi2RhfjjurTqb.jpg";
+    schem:name "Terminator 2: Judgment Day";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0103064",
+        "https://www.themoviedb.org/movie/280".

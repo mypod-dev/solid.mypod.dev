@@ -1,0 +1,1 @@
+{"redirect_uris":["https://ozcanseker.github.io/Social-linked-beer/popup.html"],"client_id":"c873dc7189dc3f7820443b4ccfdcf39d","response_types":["id_token token"],"grant_types":["implicit"],"application_type":"web","id_token_signed_response_alg":"RS256","token_endpoint_auth_method":"client_secret_basic"}

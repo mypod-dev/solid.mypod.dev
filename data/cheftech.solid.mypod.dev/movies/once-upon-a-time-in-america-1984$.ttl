@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:37Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:59Z"^^XML:dateTime;
+    schem:datePublished "1984-05-23T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "A former Prohibition-era Jewish gangster returns to the Lower East Side of Manhattan over thirty years later, where he once again must confront the ghosts and regrets of his old life.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/hBDHr3YihnuL46aeyEMhTchXkZP.jpg";
+    schem:name "Once Upon a Time in America";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0087843",
+        "https://www.themoviedb.org/movie/311".

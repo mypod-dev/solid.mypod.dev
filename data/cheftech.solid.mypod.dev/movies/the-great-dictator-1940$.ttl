@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:34Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:52Z"^^XML:dateTime;
+    schem:datePublished "1940-10-23T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/1QpO9wo7JWecZ4NiBuu625FiY1j.jpg";
+    schem:name "The Great Dictator";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0032553",
+        "https://www.themoviedb.org/movie/914".

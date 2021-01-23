@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix n0: <http://www.w3.org/ns/auth/acl#>.
+@prefix Sto: <./>.
+@prefix c: </profile/card#>.
+@prefix gro: <groupdata.ttl#>.
+
+:Owner
+    a n0:Authorization;
+    n0:accessTo Sto:;
+    n0:agent c:me;
+    n0:default Sto:;
+    n0:mode n0:Control, n0:Read, n0:Write.
+gro:Members
+    a n0:Authorization;
+    n0:accessTo Sto:;
+    n0:agentGroup gro:Members;
+    n0:default Sto:;
+    n0:mode n0:Read.

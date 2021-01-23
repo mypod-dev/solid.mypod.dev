@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:27Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:33Z"^^XML:dateTime;
+    schem:datePublished "1997-12-20T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "A touching story of an Italian book seller of Jewish ancestry who lives in his own little fairy tale. His creative and happy life would come to an abrupt halt when his entire family is deported to a concentration camp during World War II. While locked up he tries to convince his son that the whole thing is just a game.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/6tEJnof1DKWPnl5lzkjf0FVv7oB.jpg";
+    schem:name "Life Is Beautiful";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0118799",
+        "https://www.themoviedb.org/movie/637".

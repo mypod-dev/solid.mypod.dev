@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:24Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:26Z"^^XML:dateTime;
+    schem:datePublished "1993-11-30T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/c8Ass7acuOe4za6DhSattE359gr.jpg";
+    schem:name "Schindler's List";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0108052",
+        "https://www.themoviedb.org/movie/424".

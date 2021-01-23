@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:32Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:45Z"^^XML:dateTime;
+    schem:datePublished "2011-11-02T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "A true story of two men who should never have met \u2013 a quadriplegic aristocrat who was injured in a paragliding accident and a young man from the projects.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/w7WxNbb0mcWpwDMd3pJA7LQRfnt.jpg";
+    schem:name "The Intouchables";
+    schem:sameAs
+        "https://www.imdb.com/title/tt1675434",
+        "https://www.themoviedb.org/movie/77338".

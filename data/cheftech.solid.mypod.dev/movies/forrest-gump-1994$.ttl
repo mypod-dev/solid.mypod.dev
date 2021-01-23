@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:26Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:29Z"^^XML:dateTime;
+    schem:datePublished "1994-07-06T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "A man with a low IQ has accomplished great things in his life and been present during significant historic events\u2014in each case, far exceeding what anyone imagined he could do. But despite all he has achieved, his one true love eludes him.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/clolk7rB5lAjs41SD0Vt6IXYLMm.jpg";
+    schem:name "Forrest Gump";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0109830",
+        "https://www.themoviedb.org/movie/13".

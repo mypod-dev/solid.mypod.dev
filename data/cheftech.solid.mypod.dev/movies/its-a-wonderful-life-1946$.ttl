@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:28Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:35Z"^^XML:dateTime;
+    schem:datePublished "1946-12-20T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "A holiday favourite for generations...  George Bailey has spent his entire life giving to the people of Bedford Falls.  All that prevents rich skinflint Mr. Potter from taking over the entire town is George's modest building and loan company.  But on Christmas Eve the business's $8,000 is lost and George's troubles begin.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg";
+    schem:name "It's a Wonderful Life";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0038650",
+        "https://www.themoviedb.org/movie/1585".

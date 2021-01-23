@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:30Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:41Z"^^XML:dateTime;
+    schem:datePublished "2002-09-17T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "The true story of pianist W\u0142adys\u0142aw Szpilman's experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a caf\u00e9; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/3DzePKMbLMIM636S6syCy3cLPqj.jpg";
+    schem:name "The Pianist";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0253474",
+        "https://www.themoviedb.org/movie/423".

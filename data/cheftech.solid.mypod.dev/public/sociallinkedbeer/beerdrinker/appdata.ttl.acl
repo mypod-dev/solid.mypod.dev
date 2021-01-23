@@ -1,0 +1,17 @@
+@prefix : <#>.
+@prefix n0: <http://www.w3.org/ns/auth/acl#>.
+@prefix fri: <friends.ttl#>.
+@prefix c: </profile/card#>.
+
+:Friends
+    a n0:Authorization;
+    n0:accessTo <appdata.ttl>;
+    n0:agentGroup fri:Friends, fri:FriendsRequested;
+    n0:default <appdata.ttl>;
+    n0:mode n0:Read.
+:Owner
+    a n0:Authorization;
+    n0:accessTo <appdata.ttl>;
+    n0:agent c:me;
+    n0:default <appdata.ttl>;
+    n0:mode n0:Control, n0:Read, n0:Write.

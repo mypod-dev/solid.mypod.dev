@@ -1,0 +1,57 @@
+@prefix : <#>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix pim: <http://www.w3.org/ns/pim/space#>.
+@prefix schema: <http://schema.org/>.
+@prefix ldp: <http://www.w3.org/ns/ldp#>.
+@prefix pro: <./>.
+@prefix n: <http://www.w3.org/2006/vcard/ns#>.
+@prefix inbox: </inbox/>.
+@prefix che: </>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+@prefix n0: <http://www.w3.org/ns/auth/acl#>.
+
+pro:card a foaf:PersonalProfileDocument; foaf:maker :me; foaf:primaryTopic :me.
+
+:id1611089321166
+    n:country-name "United States of America";
+    n:locality "New Milford, CT";
+    n:postal-code "06776";
+    n:street-address "29 Cedar Lane".
+:me
+    a schema:Person, foaf:Person;
+    n:fn "Christophe R Patraldo";
+    n:hasAddress :id1611089321166, :id1611092784593;
+    n:hasEmail :id1611092783750;
+    n:hasPhoto <Image_1611089519006.png>;
+    n:organization-name "My Pod ";
+    n:role "Chef Tech";
+    n:url
+        [ a n:WebID; n:value "https://lance.solid.mypod.dev" ],
+        [ a n:WebID; n:value "https://lance.solid.mypod.dev" ],
+        [ a n:WebID; n:value "https://lance.solid.mypod.dev" ];
+    n0:trustedApp
+            [
+                n0:mode n0:Append, n0:Control, n0:Read, n0:Write;
+                n0:origin <https://lance.solid.mypod.dev>
+            ],
+            [
+                n0:mode n0:Append, n0:Control, n0:Read, n0:Write;
+                n0:origin <https://ozcanseker.github.io>
+            ],
+            [
+                n0:mode n0:Append, n0:Read, n0:Write;
+                n0:origin <https://cleopatra.solidcommunity.net>
+            ],
+            [
+                n0:mode n0:Append, n0:Read, n0:Write;
+                n0:origin <https://noeldemartin.github.io>
+            ];
+    ldp:inbox inbox:;
+    pim:preferencesFile </settings/prefs.ttl>;
+    pim:storage che:;
+    solid:account che:;
+    solid:privateTypeIndex </settings/privateTypeIndex.ttl>;
+    solid:profileHighlightColor "#a93d3d"^^XML:color;
+    solid:publicTypeIndex </settings/publicTypeIndex.ttl>;
+    foaf:name "Christophe R Patraldo".

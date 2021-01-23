@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:30Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:40Z"^^XML:dateTime;
+    schem:datePublished "1994-06-23T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "A young lion prince is cast out of his pride by his cruel uncle, who claims he killed his father. While the uncle rules with an iron paw, the prince grows up beyond the Savannah, living by a philosophy: No worries for the rest of your days. But when his past comes to haunt him, the young prince must decide his fate: Will he remain an outcast or face his demons and become what he needs to be?";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg";
+    schem:name "The Lion King";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0110357",
+        "https://www.themoviedb.org/movie/8587".

@@ -1,0 +1,12 @@
+@prefix : <#>.
+@prefix c: </profile/card#>.
+@prefix n0: <http://xmlns.com/foaf/0.1/>.
+@prefix voc: <https://ozcanseker.github.io/Social-linked-beer/vocab/>.
+@prefix n: <http://www.w3.org/2006/vcard/ns#>.
+
+c:me a n0:Person, voc:GroupMember; voc:points 0 .
+
+<> a n0:Document; n0:primaryTopic :Members.
+
+:Members a n:Group; n:hasMember c:me; n0:isPrimaryTopicOf <>.
+

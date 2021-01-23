@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:27Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:31Z"^^XML:dateTime;
+    schem:datePublished "1990-09-12T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "The true story of Henry Hill, a half-Irish, half-Sicilian Brooklyn kid who is adopted by neighbourhood gangsters at an early age and climbs the ranks of a Mafia family under the guidance of Jimmy Conway.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/oErEczcVUmJm0EPdvWsvK4g4Lv3.jpg";
+    schem:name "GoodFellas";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0099685",
+        "https://www.themoviedb.org/movie/769".

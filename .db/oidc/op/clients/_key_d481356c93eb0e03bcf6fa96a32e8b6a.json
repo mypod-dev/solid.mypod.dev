@@ -1,0 +1,1 @@
+{"redirect_uris":["https://cheftech.solid.mypod.dev/.well-known/solid/login"],"client_id":"d481356c93eb0e03bcf6fa96a32e8b6a","response_types":["id_token token"],"grant_types":["implicit"],"application_type":"web","id_token_signed_response_alg":"RS256","token_endpoint_auth_method":"client_secret_basic"}

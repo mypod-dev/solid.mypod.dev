@@ -1,0 +1,19 @@
+@prefix : <#>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+@prefix n: <http://rdfs.org/sioc/ns#>.
+@prefix n0: <http://xmlns.com/foaf/0.1/>.
+@prefix c: </profile/card#>.
+@prefix ind: <../../../index.ttl#>.
+@prefix flow: <http://www.w3.org/2005/01/wf/flow#>.
+@prefix schem: <http://schema.org/>.
+
+:id1611289597520
+a schem:AgreeAction; schem:agent c:me; schem:target :Msg1611200667739.
+:Msg1611200667739
+    terms:created "2021-01-21T03:44:27Z"^^XML:dateTime;
+    n:content
+        "Hello, I'm reading through the documentation and clicked on a link (vocabulary section, foaf or vCard/Profile.  Just seeing how it works.  Send me back a message if you get this, please -- if appropriate.";
+    n0:maker c:me.
+ind:this flow:message :Msg1611200667739 .
+

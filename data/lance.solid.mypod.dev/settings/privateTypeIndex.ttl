@@ -1,0 +1,9 @@
+@prefix : <#>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
+@prefix mee: <http://www.w3.org/ns/pim/meeting#>.
+@prefix ind: </IndividualChats/lance.solid.mypod.dev/index.ttl#>.
+
+<> a solid:TypeIndex, solid:UnlistedDocument.
+
+:id1611088759650
+a solid:TypeRegistration; solid:forClass mee:LongChat; solid:instance ind:this.

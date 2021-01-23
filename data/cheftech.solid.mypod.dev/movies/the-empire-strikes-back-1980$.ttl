@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:26Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:30Z"^^XML:dateTime;
+    schem:datePublished "1980-05-20T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "The epic saga continues as Luke Skywalker, in hopes of defeating the evil Galactic Empire, learns the ways of the Jedi from aging master Yoda. But Darth Vader is more determined than ever to capture Luke. Meanwhile, rebel leader Princess Leia, cocky Han Solo, Chewbacca, and droids C-3PO and R2-D2 are thrown into various stages of capture, betrayal and despair.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/7BuH8itoSrLExs2YZSsM01Qk2no.jpg";
+    schem:name "The Empire Strikes Back";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0080684",
+        "https://www.themoviedb.org/movie/1891".

@@ -1,0 +1,14 @@
+@prefix : <#>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix bookm: <http://www.w3.org/2002/01/bookmark#>.
+@prefix soci: </public/sociallinkedbeer/>.
+
+<> a solid:ListedDocument, solid:TypeIndex; terms:references :SocialLinkedBeer.
+
+:id1610995952374
+    a solid:TypeRegistration;
+    solid:forClass bookm:Bookmark;
+    solid:instance </profile/bookmarks.ttl>.
+:SocialLinkedBeer a solid:TypeRegistration; solid:instanceContainer soci:.
+

@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:30Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:40Z"^^XML:dateTime;
+    schem:datePublished "1985-07-03T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "Eighties teenager Marty McFly is accidentally sent back in time to 1955, inadvertently disrupting his parents' first meeting and attracting his mother's romantic interest. Marty must repair the damage to history by rekindling his parents' romance and - with the help of his eccentric inventor friend Doc Brown - return to 1985.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/7lyBcpYB0Qt8gYhXYaEZUNlNQAv.jpg";
+    schem:name "Back to the Future";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0088763",
+        "https://www.themoviedb.org/movie/105".

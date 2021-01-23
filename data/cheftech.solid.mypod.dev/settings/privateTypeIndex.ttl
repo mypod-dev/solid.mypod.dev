@@ -1,0 +1,19 @@
+@prefix : <#>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
+@prefix mee: <http://www.w3.org/ns/pim/meeting#>.
+@prefix ind: </IndividualChats/cheftech.solid.mypod.dev/index.ttl#>.
+@prefix schem: <https://schema.org/>.
+@prefix mov: </movies/>.
+
+<> a solid:TypeIndex, solid:UnlistedDocument.
+
+:3984f4c2-d820-4f8e-9386-2a5f01b117b7
+    a solid:TypeRegistration;
+    solid:forClass schem:Movie;
+    solid:instanceContainer mov:.
+:ffefab00-f654-46d1-b3f5-8207666a8cb3
+    a solid:TypeRegistration;
+    solid:forClass schem:WatchAction;
+    solid:instanceContainer mov:.
+:id1610995950952
+a solid:TypeRegistration; solid:forClass mee:LongChat; solid:instance ind:this.

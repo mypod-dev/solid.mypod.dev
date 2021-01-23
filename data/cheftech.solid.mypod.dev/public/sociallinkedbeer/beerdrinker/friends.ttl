@@ -1,0 +1,10 @@
+@prefix : <#>.
+@prefix n0: <http://xmlns.com/foaf/0.1/>.
+@prefix n: <http://www.w3.org/2006/vcard/ns#>.
+
+<> a n0:Document; n0:primaryTopic :Friends; n0:topic :FriendsRequested.
+
+:Friends a n:Group; n0:isPrimaryTopicOf <>.
+
+:FriendsRequested a n:Group; n0:page <>.
+

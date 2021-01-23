@@ -1,0 +1,1 @@
+{"redirect_uris":["https://solid.mypod.dev/.well-known/solid/login"],"client_id":"ac8e5b8271f7233e580d29c3f7833376","response_types":["id_token token"],"grant_types":["implicit"],"application_type":"web","id_token_signed_response_alg":"RS256","token_endpoint_auth_method":"client_secret_basic"}

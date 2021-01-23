@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:25Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:26Z"^^XML:dateTime;
+    schem:datePublished "2003-12-01T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "Aragorn is revealed as the heir to the ancient kings as he, Gandalf and the other members of the broken fellowship struggle to save Gondor from Sauron's forces. Meanwhile, Frodo and Sam take the ring closer to the heart of Mordor, the dark lord's realm.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg";
+    schem:name "The Lord of the Rings: The Return of the King";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0167260",
+        "https://www.themoviedb.org/movie/122".

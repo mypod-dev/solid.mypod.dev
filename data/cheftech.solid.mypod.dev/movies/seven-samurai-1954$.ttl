@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:27Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:33Z"^^XML:dateTime;
+    schem:datePublished "1954-04-26T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "A samurai answers a village's request for protection after he falls on hard times. The town needs protection from bandits, so the samurai gathers six others to help him teach the people how to defend themselves, and the villagers provide the soldiers with food. A giant battle occurs when 40 bandits attack the village.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/ApdijpVm1GNV9BQMOsGcAXq4gEB.jpg";
+    schem:name "Seven Samurai";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0047478",
+        "https://www.themoviedb.org/movie/346".

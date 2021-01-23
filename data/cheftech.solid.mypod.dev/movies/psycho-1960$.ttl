@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:31Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:43Z"^^XML:dateTime;
+    schem:datePublished "1960-06-22T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother. The place seems quirky, but fine\u2026 until Marion decides to take a shower.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/81d8oyEFgj7FlxJqSDXWr8JH8kV.jpg";
+    schem:name "Psycho";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0054215",
+        "https://www.themoviedb.org/movie/539".

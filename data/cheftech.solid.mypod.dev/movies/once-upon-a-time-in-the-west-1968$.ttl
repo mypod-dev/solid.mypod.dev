@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:33Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:47Z"^^XML:dateTime;
+    schem:datePublished "1968-12-21T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "A widow whose land and life are in danger as the railroad is getting closer and closer to taking them over. A mysterious harmonica player joins forces with a desperado to protect the woman and her land.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/3RymloPYcEPx30T1vTrz2cXaVnh.jpg";
+    schem:name "Once Upon a Time in the West";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0064116",
+        "https://www.themoviedb.org/movie/335".

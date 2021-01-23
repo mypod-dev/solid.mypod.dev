@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:37Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:58Z"^^XML:dateTime;
+    schem:datePublished "2003-11-21T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "With no clue how he came to be imprisoned, drugged and tortured for 15 years, a desperate businessman seeks revenge on his captors.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/9eyqhS9MKBQqQJdGmWjKLH396gJ.jpg";
+    schem:name "Oldboy";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0364569",
+        "https://www.themoviedb.org/movie/670".

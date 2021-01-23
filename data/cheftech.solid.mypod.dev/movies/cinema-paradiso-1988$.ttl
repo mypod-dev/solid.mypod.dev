@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:33Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:48Z"^^XML:dateTime;
+    schem:datePublished "1988-11-17T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/8SRUfRUi6x4O68n0VCbDNRa6iGL.jpg";
+    schem:name "Cinema Paradiso";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0095765",
+        "https://www.themoviedb.org/movie/11216".

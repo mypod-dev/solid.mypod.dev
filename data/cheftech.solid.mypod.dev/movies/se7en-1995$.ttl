@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:27Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:33Z"^^XML:dateTime;
+    schem:datePublished "1995-09-22T00:00:00Z"^^XML:dateTime;
+    schem:description
+        """Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the "seven deadly sins" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Sommerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.""";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/6yoghtyTpznpBik8EngEmJskVUO.jpg";
+    schem:name "Se7en";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0114369",
+        "https://www.themoviedb.org/movie/807".

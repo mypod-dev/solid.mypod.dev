@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:33Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:49Z"^^XML:dateTime;
+    schem:datePublished "1954-09-01T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "Professional photographer L.B. 'Jeff' Jeffries breaks his leg while getting an action shot at an auto race. Confined to his New York apartment, he spends his time looking out of the rear window observing the neighbors. When he begins to suspect that a man across the courtyard may have murdered his wife, Jeff enlists the help of his high society fashion-consultant girlfriend and his visiting nurse to investigate.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/3yCzeNViqI2oBRbfQfwmj733jPZ.jpg";
+    schem:name "Rear Window";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0047396",
+        "https://www.themoviedb.org/movie/567".

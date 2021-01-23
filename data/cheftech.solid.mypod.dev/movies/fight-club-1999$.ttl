@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:25Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:28Z"^^XML:dateTime;
+    schem:datePublished "1999-10-15T00:00:00Z"^^XML:dateTime;
+    schem:description
+        """A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground "fight clubs" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.""";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/oqhuGSl6gp22rIRo52IouPhV4hl.jpg";
+    schem:name "Fight Club";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0137523",
+        "https://www.themoviedb.org/movie/550".

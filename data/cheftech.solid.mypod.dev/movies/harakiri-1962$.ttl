@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:30Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:39Z"^^XML:dateTime;
+    schem:datePublished "1962-09-15T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "An unusual request for ritual suicide on a feudal lord's property leads to the unwinding of a greater mystery that challenges the clan's integrity.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/fRqVjso3rdEcxZHXWE2xazDAtjI.jpg";
+    schem:name "Harakiri";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0056058",
+        "https://www.themoviedb.org/movie/14537".

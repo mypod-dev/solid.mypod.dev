@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:35Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:53Z"^^XML:dateTime;
+    schem:datePublished "2006-03-15T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "A tragic love story set in East Berlin with the backdrop of an undercover Stasi controlled culture. Stasi captain Wieler is ordered to follow author Dreyman and plunges deeper and deeper into his life until he reaches the threshold of doubting the system.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/5BCyeLJHPcRwhu0YaRqUzw00JJ4.jpg";
+    schem:name "The Lives of Others";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0405094",
+        "https://www.themoviedb.org/movie/582".

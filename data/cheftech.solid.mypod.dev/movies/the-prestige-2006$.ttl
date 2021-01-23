@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:32Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:46Z"^^XML:dateTime;
+    schem:datePublished "2006-10-19T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "A mysterious story of two magicians whose intense rivalry leads them on a life-long battle for supremacy -- full of obsession, deceit and jealousy with dangerous and deadly consequences.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/pvSESD7ujxWZwtYDb9l57qE0ywq.jpg";
+    schem:name "The Prestige";
+    schem:sameAs
+        "https://www.imdb.com/title/tt0482571",
+        "https://www.themoviedb.org/movie/1124".

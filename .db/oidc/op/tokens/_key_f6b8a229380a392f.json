@@ -1,0 +1,1 @@
+{"header":{"alg":"RS256","kid":"R6WL-r2pEa4"},"payload":{"iss":"https://solid.mypod.dev","aud":["6a7424969e7fc72aa96dd102efa5d28b"],"sub":"https://cheftech.solid.mypod.dev/profile/card#me","exp":1612298331,"iat":1611088731,"jti":"f6b8a229380a392f","scope":"openid"}}

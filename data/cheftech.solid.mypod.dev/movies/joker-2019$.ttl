@@ -1,0 +1,18 @@
+@prefix : <#>.
+@prefix schem: <https://schema.org/>.
+@prefix terms: <http://purl.org/dc/terms/>.
+@prefix XML: <http://www.w3.org/2001/XMLSchema#>.
+
+:it
+    a schem:Movie;
+    terms:created "2020-07-17T16:40:35Z"^^XML:dateTime;
+    terms:modified "2021-01-20T14:50:52Z"^^XML:dateTime;
+    schem:datePublished "2019-10-02T00:00:00Z"^^XML:dateTime;
+    schem:description
+        "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.";
+    schem:image
+    "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg";
+    schem:name "Joker";
+    schem:sameAs
+        "https://www.imdb.com/title/tt7286456",
+        "https://www.themoviedb.org/movie/475557".
